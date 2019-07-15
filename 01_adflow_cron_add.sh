@@ -15,9 +15,9 @@ echo "===================[cron 작업][END]"
 echo ""
 echo "===================[wp-config.php 작업][START]"
 echo "[INFO] wp-config.php 권한 변경중.."
-chown www-data:www-data ./wp-config.php
+chown www-data:www-data /root/adflow_wp_config/wp-config.php
 echo "[INFO] wp-config.php 복사중.."
-yes |cp -arpf ./wp-config.php /var/www/html/wp-config.php
+yes |cp -arpf /root/adflow_wp_config/wp-config.php /var/www/html/wp-config.php
 echo "[INFO] nginx 서비스 재시작중.."
 service nginx reload
 echo "[INFO] [완료]"
