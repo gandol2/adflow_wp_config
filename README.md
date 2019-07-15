@@ -1,11 +1,11 @@
-##주요 명령어
-###서버 재시작 (nginx)
-systemctl reload nginx
+# 주요 명령어
+## 서버 재시작 (nginx)
+<code>systemctl reload nginx</code>
 
 
 
 
-##주요 경로 
+# 주요 경로 
 ### WP 설정파일 경로
 vi /var/www/html/wp-config.php
 
